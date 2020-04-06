@@ -1,0 +1,149 @@
+.grid {
+  background-color: #abcdef;
+  display: grid;
+  padding: 8px;
+  grid-column-gap: 8px;
+  grid-row-gap: 8px;
+  grid-template-columns: auto auto;
+  border-radius: 30px;
+}
+
+.nile-item {
+  background-color: white;
+  font-size: 18px;
+  padding: 4px;
+  text-align: center;
+  border-radius: 30px;
+}
+
+@media (min-width: 600px) {
+  .nile::before {
+    content: "Welcome to";
+  }
+
+  .grid {
+    grid-template-columns: auto auto;
+  }
+}
+@media (max-width: 599px) {
+  .nile::before {
+    content: "";
+  }
+
+  .grid {
+    grid-template-columns: auto;
+  }
+}
+.department, .sports, .home, .books, .electronics {
+  color: #abcdef;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.electronics {
+  background-color: #aabbcc;
+}
+
+.books {
+  background-color: #ccaabb;
+}
+
+.home {
+  background-color: #bbccaa;
+}
+
+.sports {
+  background-color: #ffdd99;
+}
+
+#N {
+  font-size: 64px;
+  color: #123456;
+}
+
+#i {
+  font-size: 52px;
+  color: #345678;
+}
+
+#l {
+  font-size: 40px;
+  color: #56789a;
+}
+
+#e {
+  font-size: 28px;
+  color: #789abc;
+}
+
+.row div {
+  padding: 10px;
+  text-align: center;
+  font-size: 14px;
+  border: 2px solid #abcdef;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+}
+.container div {
+  border: 2px solid #fedcba;
+  border-radius: 30px;
+  padding: 4px;
+  margin: 2px;
+  width: 250px;
+}
+
+.product img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 180px;
+}
+.product button {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.product input {
+  width: 80px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+p {
+  text-align: center;
+}
+
+table {
+  border-collapse: collapse;
+  margin: 10px;
+  padding: 5px;
+}
+
+td {
+  border: 1px solid #abcdef;
+  margin: 10px;
+  padding: 5px;
+}
+
+.attribute {
+  background-color: #124578;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  widtht: 50%;
+}
+
+h2 {
+  text-align: center;
+}
+
+/*# sourceMappingURL=style.css.map */
